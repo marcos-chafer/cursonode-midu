@@ -1,0 +1,34 @@
+{
+	"name": "cursonode",
+	"version": "1.0.0",
+	"description": "El mejor curso de Node por 0€",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"curso",
+		"node",
+		"javascript",
+		"js",
+		"midudev"
+	],
+	"author": "midudev",
+	"license": "ISC",
+	"dependencies": {
+		"picocolors": "1.0.0"
+	},
+	"devDependencies": {
+		"semistandard": "^17.0.0"
+	},
+	"eslintConfig": {
+		"extends": "semistandard",
+		"rules": {
+			"indent": [
+				"error",
+				"tab"
+			],
+			"no-tabs": 0
+		}
+	}
+}
